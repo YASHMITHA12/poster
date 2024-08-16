@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+
+}
+/* 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+    background: 
+        url('WhatsApp\ Image.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center
+} */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  background: url('mmm.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(153, 79, 79);
+  text-align: center;
+}
+
+.title {
+  margin: auto;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+.left-corner {
+  flex: 1;
+  /* color: #00ffcc; */
+  padding-left: 40px;
+}
+
+.left-corner h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1b1e1d; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.left-corner ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+.left-corner ul li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #1b1e1d; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.right-corner {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-right: 40px;
+}
+
+.transparent-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffcc00; 
+  text-align: left;
+}
+
+.transparent-box p {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ff6600; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
